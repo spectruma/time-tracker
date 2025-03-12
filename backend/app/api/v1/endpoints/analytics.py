@@ -18,7 +18,7 @@ from app.api.deps import (
     get_elasticsearch,
 )
 from app.domain.models.user import User
-from app.domain.models.time_entry import TimeEntry
+#from app.domain.models.time_entry import TimeEntry
 from app.domain.models.leave_request import LeaveRequest, LeaveType, RequestStatus
 from app.adapters.persistence.time_entry_repository import TimeEntryRepository
 from app.adapters.persistence.leave_request_repository import LeaveRequestRepository
