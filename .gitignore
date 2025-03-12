@@ -1,0 +1,28 @@
+# Root .gitignore
+# Node
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+.env
+.venv
+venv/
+ENV/
+
+# Build directories
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
